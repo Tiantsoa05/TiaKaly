@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="commande.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="form.css">
+    <title>TiaKaly</title>
+</head>
+<body class="essai">
+    <nav class="navigation">
+        <div class="menuItem"><a href="accueil.html">Accueil</a></div>
+        <div class="menuItem"><a href="commande.html">Commande</a></div>
+        <div class="menuItem"><a href="commentaire.html">Livre d'or</a></div>
+        <div class="menuItem"><a href="contact.html">Contact</a></div>
+    </nav>
+    <div class="choice">
+        <button id="btnMenu">MENU</button>
+        <button id="btnBoisson">BOISSON</button>
+    </div>
+    <!-- <div class="cdr">
+        <div><input type="text"placeholder="chercher" class="input"></div>
+        <div class="icone"><img src="images/search.png" alt=""></div>
+    </div> -->
+
+    <div class="liste_commande">
+        <h1 id="titreLC">Liste des commandes effectués</h1>
+        <ul id="liste">
+        </li>
+        </ul>
+        <button id="validCommand">Valider</button>
+    </div>
+
+    <div id="formulaire" class="formCommand">
+
+        <h2 align="center"><u> INSCRIVEZ-VOUS   :) </u></h2>
+        <div id="select">   
+            Pays:Madagascar <br>
+            Ville:<br>
+        <select name="liste" size="1" class="selection" >
+            <option value="md">Antananarivo</option>
+            <option value="mb">Madagacar</option>
+            <option value="mc">Madagacar</option>
+            <option value="ma">Madagacar</option>
+            <option value="mds">Madagacar</option>
+            <option value="mcv">Madagacar</option>
+            <option value="mqw">Madagacar</option>
+            <option value="mcv">Madagacar</option>
+            <option value="mcvv">Madagacar</option>
+            <option value="mdmn">Madagacar</option>
+            <option value="mdmk">Madagacar</option>
+        </select>
+        </div> 
+         <div id="forme">
+            
+            <form name="f" onsubmit="return formulaire()">
+            <pre>
+                             NOM :) <input type="text"name="NOM"/><br>
+                       PRENOM(S) :) <input type="text"name="prenom"/><br>
+                NUMERO TELEPHONE :) <input type="number"name="Telephone"/><br>
+                         ADRESSE :) <input type="text"name="adresse"/><br>
+               Date de livraison :) <input type="date"name="date"><br>
+             heure de livraison :)  <input type="datetime"name="Datetime"><br>
+Mode de payement  :)  payement en ligne        <input type="radio" name="a"checked value="1"><br>
+                      payement apres livraison <input type="radio" name="a"checked value="1">
+        
+            </div>
+            <div class="boutons">
+                <button class="btn-envoyer" id="btnValidForm" value="">ENVOYER</button>
+                <button  class="btn-reset" value="">ANNULER</button>
+            </div>
+            
+    </div>
+    <h1 class="titreMenu">Menu plats</h1>
+     <div class="menu">
+    </div>
+
+    <h1 class="titreBoisson">BOISSON</h1>
+
+    <div class="boisson">
+    </div>
+    <script src="commande.js"></script>
+</body>
+</html>
