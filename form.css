@@ -1,0 +1,75 @@
+.selection{
+    background: #ed98ed;
+    width:15%;
+    height: 20%;
+    border-color: #a10678;
+}
+#select{
+    padding-inline-start: 11%;
+}
+#forme{
+    align-items:center;
+    justify-content: 80%;
+    /* padding: 10%; */
+
+}
+ #formulaire input{
+    background: #ed98ed;
+    width: 40%;
+    height: 24px;
+    position: sticky;
+    border-radius: 11px;
+    top: 10px;
+    /* left: 30%; */
+    border-color: #a10678;
+}
+#btn{
+    width: max-content;
+    position: sticky;
+    left: 50%;
+    top: 10px;
+    background-color: rgb(122, 167, 8);
+    border-color: aliceblue;
+    border-radius: 2.5px;
+}
+reset{
+    background-color: rgb(20, 126, 142);
+    border-color: rgb(255, 240, 252);
+    /* border-radius: 2.5px; */
+    top: 10px;
+    left: 39%;
+    position: sticky;
+}
+
+
+h2 ul{
+    color: #ed98ed;
+}
+radio{
+    background: #ed98ed;
+}
+pre{
+    font-size: 18px;
+}
+.boutons{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    margin-top: 0px;
+}
+.btn-envoyer{
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: solid red 1px;
+    margin-left: 10px;
+}
+.btn-reset{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: red;
+    border: solid white 1px;
+}
+    
