@@ -1,0 +1,39 @@
+.titre{
+    text-align: center;
+     font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    transition: 0.6s;
+    animation: changeColor infinite alternate 10s;
+} 
+body{background:repeating-radial-gradient(rgb(243, 222, 222), transparent 0.2px)}
+@keyframes changeColor {
+    0%{color:rgb(122,38,25)}
+    10%{color:rgb(122, 72, 25)}
+    20%{color:rgb(96, 122, 25)}
+    30%{color:rgb(33, 122, 25)}
+    50%{color:rgb(25, 122, 73)}
+    60%{color:rgb(25, 67, 122)}
+    70%{color:rgb(70, 25, 122)}
+    80%{color:rgb(111, 25, 122)}
+    90%{color:rgb(122, 25, 101)}
+    100%{color:rgb(201, 12, 69)}
+}
+.pub{
+    font-style: italic;
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+article{
+    background-color: yellow;
+    border-radius: 12px;
+    width:98%;
+    margin-left: 1%;
+}
+article p{
+    font-size: 18px;
+}
