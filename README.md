@@ -1,7 +1,7 @@
 # TiaKaly
 
 ## Description
-It's an application about ordering food inline.
+It's an application about ordering food inline.<br>
 Technology used: 
 * Front end: HTML & CSS & JavaScript
 * Backend: PHP
