@@ -2,7 +2,7 @@
 
 ## Description
 It's an application about ordering food inline.<br>
-Technology used: 
+## Technology used: 
 * Front end: HTML & CSS & JavaScript
 * Backend: PHP
 * DBMS: MySQL
